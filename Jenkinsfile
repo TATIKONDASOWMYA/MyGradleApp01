@@ -1,7 +1,7 @@
 pipeline{
 	agent any
 	tools{
-	gradle 'Gradle',
+	gradle 'Gradle'
 	jdk 'JDK'
 	}
 	
@@ -24,7 +24,7 @@ pipeline{
 	}
 	}
 	post{
-	success:{echo 'Build Success'}
-	failure:{echo 'Build failure'}
+	success {echo 'Build Success'}
+	failure {echo 'Build failure'}
 	}
 }
