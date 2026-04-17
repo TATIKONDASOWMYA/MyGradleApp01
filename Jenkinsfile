@@ -26,7 +26,7 @@ pipeline{
 	}
 	post{
 	success{ echo 'Build Success'}
-	faliure{ echo 'Build Failed'}
+	failure{ echo 'Build Failed'}
 	}
 }
 		
