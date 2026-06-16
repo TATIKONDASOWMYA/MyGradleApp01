@@ -3,11 +3,9 @@
  */
 public class App {
     public String getGreeting() {
-<<<<<<< HEAD
-        return "Hello world.";
-=======
+
         return "Sowmya A \n1BI23CS211";
->>>>>>> d110f83 (FIRST COMMIT)
+
     }
 
     public static void main(String[] args) {
