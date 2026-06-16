@@ -15,4 +15,8 @@ include 'api'
 include 'services:webservice'
 */
 
+<<<<<<< HEAD
 rootProject.name = 'MyGradleApp01'
+=======
+rootProject.name = 'MyGradleApp'
+>>>>>>> d110f83 (FIRST COMMIT)

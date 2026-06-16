@@ -29,10 +29,10 @@ dependencies {
 
 // Define the main class for the application
 mainClassName = 'App'
-task Hello {
-	doLast{
-	println 'Hello World! Welcome'
-	}
-}
 
+task Hello{
+doLast{
+println 'Hello 1BI23CS211!'
+}
+}
 
